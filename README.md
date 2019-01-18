@@ -1,9 +1,7 @@
 <p align="center">
-  <img width="320" src="./assets/logo.jpg">
+  <img width="280" src="https://viktorwong.github.io/Front-end-Library/logo.png">
 </p>
 
-cooming soon
 
-base on vuepress
 
 网址：https://viktorwong.github.io/Front-end-Library/
