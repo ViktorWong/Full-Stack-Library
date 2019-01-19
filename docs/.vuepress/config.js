@@ -36,7 +36,7 @@ module.exports = {
         link: '/interview/'
       },
       {
-        text: '关于我们',
+        text: '书房',
         link: '/about/'
       },
       {
@@ -59,6 +59,7 @@ module.exports = {
       }
     }
   },
+  ga: "UA-132773827-1",
   markdown: {
     config: md => {
       // use more markdown-it plugins!
