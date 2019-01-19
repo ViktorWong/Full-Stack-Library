@@ -5,12 +5,12 @@
       <div class="my-ad">
         <img
           src="/Front-end-Library/hongbao.PNG"
-          width="49%"
+          width="46%"
           style="border-radius: 3px; opacity: 0.9;"
         >
         <img
           src="/Front-end-Library/zhifubao.JPG"
-          width="49%"
+          width="46%"
           style="border-radius: 3px; opacity: 0.9;"
         >
         <div
