@@ -3,25 +3,27 @@
     <NavLinks />
     <slot name="top">
       <div class="my-ad">
-        <img
+        <!-- <img
           src="/Front-end-Library/hongbao.PNG"
           width="32%"
           style="border-radius: 3px; opacity: 0.9;"
-        >
+        > -->
+
         <img
           src="/Front-end-Library/zhifubao.png"
-          width="32%"
+          width="48%"
           style="border-radius: 3px; opacity: 0.9;"
         >
         <img
           src="/Front-end-Library/weixin.png"
-          width="32%"
+          width="48%"
           style="border-radius: 3px; opacity: 0.9;"
         >
+
         <div
           align="center"
           class="ad-mark"
-        >如果你觉得很赞, 可以请我喝杯果汁 🍹</div>
+        >若你觉得很赞, 可以请我喝果汁 🍹</div>
       </div>
     </slot>
     <ul
