@@ -197,6 +197,10 @@ sidebar: auto
 
 [Node.js 最佳实践](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md)
 
+[gesture](https://github.com/prianyu/gesture) 移动端手势库
+
+[React-Native学习指南](https://github.com/reactnativecn/react-native-guide) React Native指南汇集了各类react-native学习资源、开源App和组件
+
 ## GraphQL
 
 [prisma](https://www.prisma.io/docs/) 让前端也能快速的写出
@@ -314,3 +318,6 @@ sidebar: auto
 [mos](https://mos.caldis.me/) 鼠标平滑滚动软件，很好用。免费开源
 
 [sequel pro](https://www.sequelpro.com/) mysql 客户端 好用
+
+## websocket
+[fiora](https://github.com/yinxin630/fiora) 网页聊天IM
