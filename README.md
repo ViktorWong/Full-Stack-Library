@@ -13,3 +13,9 @@
 
 ## 协议
 MIT. Copyright (c)
+
+## 捐赠
+
+**如果您觉得还不错, 请我喝杯咖啡———— 以激励我更多输出优质开源内容，欢迎Star, 提交PR**
+
+<img width="500" src="https://viktorwong.github.io/Front-end-Library/zhifubao.JPG">
