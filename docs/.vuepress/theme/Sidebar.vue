@@ -5,18 +5,23 @@
       <div class="my-ad">
         <img
           src="/Front-end-Library/hongbao.PNG"
-          width="46%"
+          width="32%"
           style="border-radius: 3px; opacity: 0.9;"
         >
         <img
-          src="/Front-end-Library/zhifubao.JPG"
-          width="46%"
+          src="/Front-end-Library/zhifubao.png"
+          width="32%"
+          style="border-radius: 3px; opacity: 0.9;"
+        >
+        <img
+          src="/Front-end-Library/weixin.png"
+          width="32%"
           style="border-radius: 3px; opacity: 0.9;"
         >
         <div
           align="center"
           class="ad-mark"
-        >如果您觉得还不错, 请我喝杯咖啡</div>
+        >如果你觉得很赞, 可以请我喝杯果汁 🍹</div>
       </div>
     </slot>
     <ul

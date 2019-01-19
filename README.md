@@ -21,7 +21,7 @@ MIT. Copyright (c)
 <div align="center">
 <img width="200" src="https://viktorwong.github.io/Front-end-Library/hongbao.PNG">
 &nbsp;&nbsp;
-<img width="200" src="https://viktorwong.github.io/Front-end-Library/zhifubao.JPG">
+<img width="200" src="https://viktorwong.github.io/Front-end-Library/zhifubao.png">
 &nbsp;&nbsp;
-<img width="200" src="https://viktorwong.github.io/Front-end-Library/weixin.JPG">
+<img width="200" src="https://viktorwong.github.io/Front-end-Library/weixin.png">
 </div>
