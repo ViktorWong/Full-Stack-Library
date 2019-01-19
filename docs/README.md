@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.png
 heroText: Front-end Library
-tagline: 为前端入门及进阶提供系统性指导
+tagline: 致力于为前端入门及进阶提供系统性指导
 actionText: 开始学习 →
 actionLink: /article/
 features:
