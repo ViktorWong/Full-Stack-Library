@@ -16,7 +16,7 @@ MIT. Copyright (c)
 
 ## 捐赠
 
-**如果您觉得还不错, 请我喝杯咖啡———— 以激励我更多输出优质开源内容，欢迎Star, 提交PR**
+**如果你觉得这个项目帮助到了你，你可以帮作者买一杯果汁表示鼓励 🍹 ，欢迎Star, 提交PR**
 
 <div align="center">
 <img width="200" src="https://viktorwong.github.io/Front-end-Library/hongbao.PNG">
