@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         text: '书房',
-        link: '/about/'
+        link: '/library/'
       },
       {
         text: 'Blog',
