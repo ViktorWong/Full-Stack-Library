@@ -31,10 +31,11 @@ module.exports = {
         text: '进阶',
         link: '/advance/'
       },
-      { text: '面经', link: '/interview/' },
+      { text: 'js函数式编程指南', link: 'https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/' },
       {
         text: '藏金阁',
         items: [
+          { text: '面经', link: '/interview/' },
           {
             text: '文章收集',
             link: '/article/'

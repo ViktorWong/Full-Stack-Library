@@ -12,6 +12,18 @@
 
 [Things I Don’t Know as of 2018](https://overreacted.io/things-i-dont-know-as-of-2018/)
 
+[用webpack搭建多页面项目](https://juejin.im/post/5a0c13b3518825329314154d)
+
+[Vue 折腾记 - (14) Nuxt.js 2 正式版升级采坑以及部署姿势改动](https://juejin.im/post/5badce536fb9a05d26596a5a)
+
+[开源库架构实战——从0到1搭建属于你自己的开源库](https://juejin.im/post/5b729909e51d45662434aef0)
+
+[前端常用插件、工具类库汇总，不要重复造轮子啦！！！](https://juejin.im/post/5ba7d5dd5188255c6140cc9d)
+
+[2万5千字大厂面经 | 掘金技术征文](https://juejin.im/post/5ba34e54e51d450e5162789b)
+
+[八段代码彻底掌握 Promise](https://juejin.im/post/597724c26fb9a06bb75260e8)
+
 ## GraphQL
 
 [GraphQL 核心概念](https://segmentfault.com/a/1190000014131950)
