@@ -1,11 +1,14 @@
 
 
-# 书房
+# 图书资料
 
 ## JavaScript
 [《ECMAScript 6 入门》](http://es6.ruanyifeng.com/)
 
 [《how-javascript-works》](https://github.com/Troland/how-javascript-works)
+
+[《前端工程师手册》](https://leohxj.gitbooks.io/front-end-database/content/html-and-css-basic/index.html)
+
 
 ## TypeScript
 

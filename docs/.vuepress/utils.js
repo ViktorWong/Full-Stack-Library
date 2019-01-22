@@ -21,7 +21,7 @@ exports.inferSiderbars = () => {
       {
         title,
         children,
-        collapsable: false
+        collapsable: true
       }
     ]
   })

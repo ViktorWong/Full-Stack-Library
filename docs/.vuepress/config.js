@@ -24,24 +24,31 @@ module.exports = {
         link: '/'
       },
       {
-        text: '库',
-        link: '/repository/'
+        text: '内功',
+        link: '/itbasic/'
       },
       {
-        text: '文章',
-        link: '/article/'
+        text: '进阶',
+        link: '/advance/'
       },
+      { text: '面经', link: '/interview/' },
       {
-        text: '面试',
-        link: '/interview/'
-      },
-      {
-        text: '书房',
-        link: '/library/'
-      },
-      {
-        text: 'Blog',
-        link: 'https://viktorwong.github.io/'
+        text: '藏金阁',
+        items: [
+          {
+            text: '文章收集',
+            link: '/article/'
+          },
+          { text: '图书收集', link: '/library/' },
+          {
+            text: '推荐库',
+            link: '/repository/'
+          },
+          {
+            text: 'Blog',
+            link: 'https://viktorwong.github.io/'
+          }
+        ]
       }
     ],
     sidebar: utils.inferSiderbars(),
@@ -50,7 +57,7 @@ module.exports = {
     editLinks: true,
     docsDir: 'docs',
     editLinkText: '在 GitHub 上编辑此页',
-    sidebarDepth: 3,
+    sidebarDepth: 4
   },
   configureWebpack: {
     resolve: {
@@ -59,7 +66,7 @@ module.exports = {
       }
     }
   },
-  ga: "UA-132773827-1",
+  ga: 'UA-132773827-1',
   markdown: {
     config: md => {
       // use more markdown-it plugins!

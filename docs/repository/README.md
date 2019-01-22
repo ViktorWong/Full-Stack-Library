@@ -2,6 +2,7 @@
 # 推荐库
 
 ## 前端
+[30 seconds of code](https://30secondsofcode.org/#top) 一个js常用函数的实现库
 
 [consola](https://github.com/nuxt/consola) 优雅命令行 console vuepress 也使用了
 

@@ -126,6 +126,7 @@ function resolveOpenGroupIndex(route, items) {
   }
 
   .my-ad {
+    background: #fff;
     padding: 10px 20px;
     z-index: 100;
     position: -webkit-sticky;

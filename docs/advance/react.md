@@ -1,9 +1,4 @@
-# React
-
-在使用 react 的过程中，我们绕不开渲染性能优化问题，因为默认情况下 react 组件的 shouldComponentUpdate 函数会一直返回 true，这回导致所有的组件都会进行耗时的虚拟 DOM 比较。在使用 redux 作为 react 的逻辑层框架时，我们可以使用经典的 PureComponent+ShallowCompare 的方式进行渲染性能优化
-
-https://foio.github.io/mobx-react/
-
+# React 大揭秘
 ## MobX
 
 作为一个数据层框架，mobx 基于一个最简单的原则：
@@ -74,3 +69,7 @@ shouldComponentUpdate: function(nextProps, nextState) {
 - 要用好 RN 你必须同时熟悉 iOS 和 Android ，当然还有 RN 本身，这就对我们工程师提出了更多挑战。
 - 团队的管理，责任的划分。
 - RN 文档及相关资源不如 iOS 和 Android 的丰富。
+
+## Redux原理
+## 路由原理
+## ReactRouter源码解析

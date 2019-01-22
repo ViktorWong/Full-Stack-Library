@@ -62,7 +62,7 @@ function renderChildren (h, children, path, route, maxDepth, depth = 1) {
 @import './styles/config.styl'
 
 .sidebar .sidebar-sub-headers
-  padding-left 1rem
+  padding-left 2rem
   font-size 0.95em
 
 a.sidebar-link
