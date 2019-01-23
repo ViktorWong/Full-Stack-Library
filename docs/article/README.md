@@ -24,6 +24,10 @@
 
 [八段代码彻底掌握 Promise](https://juejin.im/post/597724c26fb9a06bb75260e8)
 
+[让老板虎躯一震的前端技术，KPI杀手](https://juejin.im/post/5c3ff18b6fb9a04a0a5f76aa?utm_source=gold_browser_extension)
+
+[一次弄懂Event Loop（彻底解决此类面试问题）](https://juejin.im/post/5c3d8956e51d4511dc72c200?utm_source=gold_browser_extension)
+
 ## GraphQL
 
 [GraphQL 核心概念](https://segmentfault.com/a/1190000014131950)
@@ -31,6 +35,8 @@
 [RPC vs REST vs GraphQL](https://segmentfault.com/a/1190000013961872)
 
 [Why use GraphQL, good and bad reasons](https://honest.engineering/posts/why-use-graphql-good-and-bad-reasons)
+
+[GraphQL-前端进阶的利剑与桥梁](https://mp.weixin.qq.com/s/Gw3iOyuRr8HvOqY1GNxqqA)
 
 ## 职业发展
 
