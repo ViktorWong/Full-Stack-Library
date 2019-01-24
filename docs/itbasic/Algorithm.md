@@ -409,34 +409,36 @@ function heapify(array, index, size) {
 
 ```js
 function countingSort(array) {
-    checkArray(array)
-    let bias,min = array[0],max = array[0]
-    for(let i = 0; i< array.length; i++){
-        if(array[i] > max){
-            max = array[i]
-        }
-        if(array[i] < min){
-            min = array[i]
-        }
+  checkArray(array)
+  let bias,
+    min = array[0],
+    max = array[0]
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] > max) {
+      max = array[i]
     }
-    bias = 0 - min
-    let bucket = Array.apply(null, Array(max - min + 1)).map(() => 0);
-    for(let i = 0; i<array.length; i++){
-        bucket[array[i] + bias]++
+    if (array[i] < min) {
+      min = array[i]
     }
-    let index = 0,i = 0
-    while(index < array.length){
-        if(bucket[i] != 0){
-            array[index] =  i -bias
-            bucket[i]--
-            index++
-        }else{
-            i++
-        }
+  }
+  bias = 0 - min
+  let bucket = Array.apply(null, Array(max - min + 1)).map(() => 0)
+  for (let i = 0; i < array.length; i++) {
+    bucket[array[i] + bias]++
+  }
+  let index = 0,
+    i = 0
+  while (index < array.length) {
+    if (bucket[i] != 0) {
+      array[index] = i - bias
+      bucket[i]--
+      index++
+    } else {
+      i++
     }
-    return array
+  }
+  return array
 }
-
 ```
 
 #### 算法分析
@@ -662,21 +664,64 @@ function radixSort(array, maxDigit) {
 - 计数排序：每个桶只存储单一键值
 - 桶排序：每个桶存储一定范围的数值
 
-## 为什么
+## 短链接原理及实现
 
-- OSI 七层协议？
-- http 和 https 有什么区别？
-- https 使用上有什么注意点？
-- https 和 http 性能有什么区别？
-- 常见的排序方法，你都熟悉那些？
-- 说下希尔排序的过程？
-- 希尔排序的时间复杂度和空间复杂度多少？（ 希尔排序的时间复杂度是：O（nlogn）～ O（n2），平均时间复杂度大致是 O(n√n)）
-- 时间复杂度怎么推测的？
-- 数据结构你对那些比较熟悉？
-- 二叉树是什么啊？
-- 平衡二叉树（AVL）有什么特点？
-- 平衡二叉树（AVL）有什么好处？
-- 平衡二叉树（AVL）和红黑树的区别？
-- 平衡树的插入和删除的时间复杂度？
+### 什么是短链接
 
-怎么实现 短链？
+> 就是把`普通网址`，转换成比较短的网址。比如：`https://t.cn/zyqd5JGm` 这种，在微博这些限制字数的应用里。好处不言而喻。短、字符少、美观、便于发布、传播。
+
+- 百度短网址服务 [http://dwz.cn/](http://dwz.cn/)
+- 谷歌短网址服务 [https://goo.gl/](https://goo.gl/)
+
+### 原理解析
+
+当我们在浏览器里输入 ·https://t.cn/zyqd5JGm` 时
+
+1. DNS 首先解析获得 `http://t.cn` 的 IP 地址
+2. 当 DNS 获得 IP 地址以后（比如：`116.211.169.137`），会向这个地址发送 `HTTP` `GET` 请求，查询短码 `zyqd5JGm`
+3. `http://t.cn` 服务器会通过短码 `zyqd5JGm` 获取对应的长 URL
+4. 请求通过 `HTTP` （301 或 302） 转到对应的长 URL [https://www.itdongdong.com](https://www.itdongdong.com) 。
+
+
+
+::: tip
+**重定向的问题(301还是302)**
+
+`301` 是永久重定向，`302` 是临时重定向。
+因为短地址一经生成就不会变化，所以用 `301` 是符合 `http` 语义的。同时对服务器压力也会有一定减少。
+但是如果使用了 `301`，就无法统计到短地址被点击的次数了。而这个点击次数是一个非常有意思的大数据分析数据源。能够分析出的东西非常非常多。所以选择`302`虽然会增加服务器压力，但是也是一个很好的选择。
+
+具体选择，可以根据自己的业务需求来选择！
+
+:::
+
+### 算法实现
+
+#### Hash实现
+通过一定方式将任意长的文本转化为一个固定长的字符串，只要目标文本长度适当，那么我们对于不同的输入通过哈希几乎(注意是几乎)不可能得到对应同一个字符串．通过对长链接进行Hash运算，将Hash值作为这个长链接的唯一标示．但是通过Hash实现可能会造成碰撞．不一样的长网址缩短成了同一个短网址，那也就做不到复原了．
+
+对于碰撞问题，有一种缓冲方法就是在呈现碰撞了以后后边在增加随机字符，随机字符的增加能够缓解碰撞的疑问，但是这终究是一种缓冲的办法，没有彻底解决碰撞．
+
+#### 自增序列算法
+自增序列算法也叫永不重复算法。
+
+设置 id 自增，一个 10进制 id 对应一个 62进制的数值，1对1，也就不会出现重复的情况。这个利用的就是低进制转化为高进制时，字符数会减少的特性。
+
+
+短址的长度一般设为 6 位，而每一位是由 [a - z, A - Z, 0 - 9] 总共 62 个字母组成的，所以 6 位的话，总共会有 62^6 ~= 568亿种组合，基本上够用了。
+
+附上一个进制转换工具 [http://tool.lu/hexconvert/](http://tool.lu/hexconvert/)
+
+#### 摘要算法
+1. 将长网址 `md5` 生成 32 位签名串,分为 4 段, 每段 8 个字节 
+2. 对这四段循环处理, 取 8 个字节, 将他看成 16 进制串与 0x3fffffff(30位1) 与操作, 即超过 30 位的忽略处理 
+3. 这 30 位分成 6 段, 每 5 位的数字作为字母表的索引取得特定字符, 依次进行获得 6 位字符串 
+4. 总的 `md5` 串可以获得 4 个 6 位串,取里面的任意一个就可作为这个长 url 的短 url 地址 
+
+这种算法,虽然会生成4个,但是仍然存在重复几率
+
+
+#### 两种算法对比 
+第一种算法的好处就是简单好理解，永不重复。但是短码的长度不固定，随着 id 变大从一位长度开始递增。如果非要让短码长度固定也可以就是让 id 从指定的数字开始递增就可以了。百度短网址用的这种算法。
+
+第二种算法，存在碰撞（重复）的可能性，虽然几率很小。短码位数是比较固定的。不会从一位长度递增到多位的。据说微博使用的这种算法。
