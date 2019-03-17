@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         text: '内功',
-        link: '/itbasic/'
+        link: '/itRoot/'
       },
       {
         text: '进阶',

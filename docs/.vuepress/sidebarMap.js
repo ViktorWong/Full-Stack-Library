@@ -1,5 +1,5 @@
 const sidebarMap = [
-  { title: "程序员内功心法", dirname: "itbasic" },
+  { title: "程序员内功心法", dirname: "itRoot" },
   { title: "前端进阶", dirname: "advance" },
   { title: "第三方库", dirname: "repository" },
   { title: "文章搜集", dirname: "article" },
