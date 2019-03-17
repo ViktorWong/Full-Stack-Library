@@ -24,33 +24,61 @@ module.exports = {
         link: '/'
       },
       {
-        text: '内功',
-        link: '/itRoot/'
+        text: 'JavaScript',
+        link: '/Js/'
       },
       {
-        text: '进阶',
-        link: '/advance/'
-      },
-      { text: 'js函数式编程指南', link: 'https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/' },
-      {
-        text: '藏金阁',
+        text: '框架',
         items: [
-          { text: '掘金小册', link: '/interview/' },
+          { text: 'Vue专栏', link: '/Vue/' },
           {
-            text: '文章收集',
-            link: '/article/'
+            text: 'React专栏',
+            link: '/React/'
           },
-          { text: '图书收集', link: '/library/' },
+          { text: '小程序专栏', link: '/Applets/' },
           {
-            text: '推荐库',
-            link: '/repository/'
+            text: '微信公众号',
+            link: '/Wechat/'
           },
           {
-            text: 'Blog',
-            link: 'https://viktorwong.github.io/'
-          }
+            text: 'Hybrid开发专栏',
+            link: '/Hybrid/'
+          },
         ]
-      }
+      },
+      {
+        text: '服务端',
+        items: [
+          { text: '数据结构与算法', link: '/Algorithms/' },
+          { text: 'HTTP详解', link: '/HTTP/' },
+          { text: 'Node.js', link: '/Node/' },
+        ]
+      },
+      {
+        text: 'Flutter',
+        link: '/Flutter/'
+      },
+      {
+        text: '自动化测试',
+        link: '/AutoText/'
+      },
+      {
+        text: 'Web安全',
+        link: '/WebSafety/'
+      },
+      {
+        text: '区块链',
+        link: '/Blockchain/'
+      },
+      {
+        text: '推荐库',
+        link: '/Repository/'
+      },
+      // {
+      //   text: 'Blog',
+      //   link: 'https://viktorwong.github.io/'
+      // }
+      
     ],
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',

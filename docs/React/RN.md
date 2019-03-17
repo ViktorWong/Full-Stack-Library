@@ -1,30 +1,6 @@
-# React 大揭秘
-## MobX
+# React Native
 
-作为一个数据层框架，mobx 基于一个最简单的原则：
-
-> 当应用状态更新时，所有依赖于这些应用状态的监听者（包括 UI、服务端数据同步函数等），都应该自动得到细粒度地更新。
-
-在使用 mobx 作为 react 的 store 时，我们该如何进行渲染性能优化呢？
-通过分析源代码发现，在使用@observer 将 react 组件转换成一个监听者(Reactions)后，mobx 会为 react 组件提供一个精确的、细粒度的 shouldComponentUpdate 函数:
-
-```js
-shouldComponentUpdate: function(nextProps, nextState) {
-  ......
-  // update on any state changes (as is the default)
-  if (this.state !== nextState) {
-    return true;
-  }
-  // update if props are shallowly not equal
-  return isObjectShallowModified(this.props, nextProps);
-}
-```
-
-借助于 mobx 框架对 Observable 变量引用的跟踪和依赖收集，mobx 能够精确地得到 react 组件对 Observable 变量的依赖图谱，然后再用经典的 ShallowCompare 实现细粒度的 shouldComponentUpdate 函数，以达到 100%无浪费 render。这一切都是自动完成地，fantastic！使用 mobx 后，我们再也无需手动写 shouldComponentUpdate 函数了。
-
-## React Native
-
-### 优势
+## 优势
 
 - 跨平台 （只有 0.2% 的平台特定代码）
 - 统一的设计语言，同时还能为不同平台提供不同设计
@@ -42,7 +18,7 @@ shouldComponentUpdate: function(nextProps, nextState) {
 - Flexbox
 - 有时候可以加上 Web 跨三端
 
-### 劣势
+## 劣势
 
 - 论成熟度，稳定性，RN 比 不上 iOS 和 Android 原生。
 - 由于 RN 的 Bug，有时我们必须维护自己的一个 RN 分支。
@@ -64,12 +40,8 @@ shouldComponentUpdate: function(nextProps, nextState) {
 - 还有一些奇怪的 Bug，暂没有修复。
 - SavedInstanceState 在 Android 上跨进程的坑。
 
-### 不是技术问题的问题
+## 不是技术问题的问题
 
 - 要用好 RN 你必须同时熟悉 iOS 和 Android ，当然还有 RN 本身，这就对我们工程师提出了更多挑战。
 - 团队的管理，责任的划分。
 - RN 文档及相关资源不如 iOS 和 Android 的丰富。
-
-## Redux原理
-## 路由原理
-## ReactRouter源码解析

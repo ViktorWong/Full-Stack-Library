@@ -4,7 +4,7 @@ heroImage: /home.svg
 heroText: Full Stack Library
 tagline: 揭秘Web全栈架构师，打造个人核心竞争力
 actionText: 开始修炼 →
-actionLink: /advance/
+actionLink: /Js/
 features:
 - title: 愿景
   details: 主要帮助前端开发人员进阶Web全栈架构师，做到先精后广，一专多长！内容涵盖深入Vue、React、Node、小程序、微信公众号开发、React-native、Flutter、Hybrid、区块链、工程化、自动化测试、数据结构与算法等等,助你职场路上披荆斩棘。
