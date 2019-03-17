@@ -1,6 +1,6 @@
 <div align="center">
-  <img width="256" src="https://viktorwong.github.io/Full-Stack-Library/home.svg">
-  <p> 建设Web全栈图书馆，揭秘Web全栈架构师，打造个人核心竞争力。</p> 
+  <img width="256" src="https://viktorwong.github.io/Full-Stack-Library/home.png">
+  <p> 建设Web全栈数字图书馆，揭秘Web全栈架构师，打造个人核心竞争力。</p> 
   <br/>
   <p align="left"> 该数字图书馆涉及的知识有基础，有深入，也有源码解析，如果你是名前端开发工程师，像系统提升自己编程能力，进阶Web全栈架构师，那们这便是一套神功秘籍，助你职场路上披荆斩棘。</p>
 </div>
