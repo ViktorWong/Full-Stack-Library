@@ -28,7 +28,7 @@ function swap(array, left, right) {
 
 #### 过程演示
 
-![冒泡排序](/Front-end-Library/sortGif/BubbleSort.gif)
+![冒泡排序](/Full-Stack-Library/sortGif/BubbleSort.gif)
 
 #### 代码实现
 
@@ -69,7 +69,7 @@ function BubbleSort(array) {
 
 #### 过程演示
 
-![插入排序](/Front-end-Library/sortGif/InsertionSort.gif)
+![插入排序](/Full-Stack-Library/sortGif/InsertionSort.gif)
 
 #### 代码实现
 
@@ -127,7 +127,7 @@ function ShellSort(array) {
 
 #### 过程演示
 
-![希尔排序](/Front-end-Library/sortGif/ShellSort.png)
+![希尔排序](/Full-Stack-Library/sortGif/ShellSort.png)
 
 #### 算法分析
 
@@ -151,7 +151,7 @@ n 个值的直接选择排序可经过 n-1 趟直接选择排序得到有序结�
 
 #### 过程演示
 
-![选择排序](/Front-end-Library/sortGif/SelectionSort.gif)
+![选择排序](/Full-Stack-Library/sortGif/SelectionSort.gif)
 
 #### 代码实现
 
@@ -189,7 +189,7 @@ function SelectionSort(array) {
 
 #### 过程演示
 
-![归并算法](/Front-end-Library/sortGif/MergeSort.gif)
+![归并算法](/Full-Stack-Library/sortGif/MergeSort.gif)
 
 #### 代码实现
 
@@ -268,7 +268,7 @@ mergeSort(3, 3) // 遇到终止，回退到上一步
 
 #### 过程演示
 
-![快速排序](/Front-end-Library/sortGif/QuickSort.gif)
+![快速排序](/Full-Stack-Library/sortGif/QuickSort.gif)
 
 #### 代码实现
 
@@ -335,7 +335,7 @@ function part(array, left, right) {
 
 #### 过程演示
 
-![堆排序](/Front-end-Library/sortGif/HeapSort.gif)
+![堆排序](/Full-Stack-Library/sortGif/HeapSort.gif)
 
 #### 代码实现
 
@@ -403,7 +403,7 @@ function heapify(array, index, size) {
 
 #### 过程演示
 
-![计数排序](/Front-end-Library/sortGif/CountingSort.gif)
+![计数排序](/Full-Stack-Library/sortGif/CountingSort.gif)
 
 #### 代码实现
 
@@ -466,7 +466,7 @@ function countingSort(array) {
 
 #### 过程演示
 
-![桶排序](/Front-end-Library/sortGif/BucketSort.png)
+![桶排序](/Full-Stack-Library/sortGif/BucketSort.png)
 
 #### 代码实现
 
@@ -612,7 +612,7 @@ function _val(v) {
 
 #### 过程演示
 
-![基数排序](/Front-end-Library/sortGif/RadixSort.gif)
+![基数排序](/Full-Stack-Library/sortGif/RadixSort.gif)
 
 #### 代码实现
 
