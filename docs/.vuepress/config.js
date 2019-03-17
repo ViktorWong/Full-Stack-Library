@@ -24,11 +24,11 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'JavaScript',
+        text: 'Js进阶',
         link: '/Js/'
       },
       {
-        text: '框架',
+        text: '主流框架',
         items: [
           { text: 'Vue专栏', link: '/Vue/' },
           {
@@ -43,7 +43,20 @@ module.exports = {
           {
             text: 'Hybrid开发专栏',
             link: '/Hybrid/'
+          }
+        ]
+      },
+      {
+        text: '移动端',
+        items: [
+          {
+            text: 'Flutter',
+            link: '/Flutter/'
           },
+          {
+            text: 'iOS原生开发',
+            link: '/iOS/'
+          }
         ]
       },
       {
@@ -51,34 +64,34 @@ module.exports = {
         items: [
           { text: '数据结构与算法', link: '/Algorithms/' },
           { text: 'HTTP详解', link: '/HTTP/' },
-          { text: 'Node.js', link: '/Node/' },
+          { text: 'Node.js', link: '/Node/' }
         ]
       },
       {
-        text: 'Flutter',
-        link: '/Flutter/'
-      },
-      {
-        text: '自动化测试',
-        link: '/AutoText/'
-      },
-      {
-        text: 'Web安全',
-        link: '/WebSafety/'
-      },
-      {
-        text: '区块链',
-        link: '/Blockchain/'
-      },
-      {
-        text: '推荐库',
-        link: '/Repository/'
-      },
+        text: '全栈思维',
+        items: [
+          {
+            text: 'Web安全',
+            link: '/WebSafety/'
+          },
+          {
+            text: '自动化测试',
+            link: '/AutoText/'
+          },
+          {
+            text: '区块链',
+            link: '/Blockchain/'
+          },
+          {
+            text: '推荐库',
+            link: '/Repository/'
+          }
+        ]
+      }
       // {
       //   text: 'Blog',
       //   link: 'https://viktorwong.github.io/'
       // }
-      
     ],
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',
