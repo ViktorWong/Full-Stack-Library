@@ -4,18 +4,18 @@
     <slot name="top">
       <div class="my-ad">
         <!-- <img
-          src="/Front-end-Library/hongbao.PNG"
+          src="/Full-Stack-Library/hongbao.PNG"
           width="32%"
           style="border-radius: 3px; opacity: 0.9;"
         > -->
 
         <img
-          src="/Front-end-Library/zhifubao.png"
+          src="/Full-Stack-Library/zhifubao.png"
           width="48%"
           style="border-radius: 3px; opacity: 0.9;"
         >
         <img
-          src="/Front-end-Library/weixin.png"
+          src="/Full-Stack-Library/weixin.png"
           width="48%"
           style="border-radius: 3px; opacity: 0.9;"
         >
