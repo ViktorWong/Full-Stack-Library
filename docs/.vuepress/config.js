@@ -35,7 +35,7 @@ module.exports = {
       {
         text: '藏金阁',
         items: [
-          { text: '面经', link: '/interview/' },
+          { text: '掘金小册', link: '/interview/' },
           {
             text: '文章收集',
             link: '/article/'

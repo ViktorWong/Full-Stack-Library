@@ -1,20 +1,5 @@
 # 重学 JavaScript
 
-<div style='display: none'>
-
-调用堆栈
-
-高阶函数
-
-事件机制
-
-
-
-</div>
-
-
-
-
 ## 作用域闭包
 
 ### 执行上下文
