@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /logo.png
-heroText: Front-end Library
-tagline: 致力于为前端入门及进阶提供系统性指导
+heroText: Full Stack Library
+tagline: 揭秘Web全栈架构师，打造个人核心竞争力
 actionText: 开始学习 →
 actionLink: /advance/
 features:

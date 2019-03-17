@@ -5,9 +5,9 @@
 const utils = require('./utils')
 
 module.exports = {
-  title: 'Front-end Library',
+  title: 'Full-Stack Library',
   description: '前端图书馆',
-  base: '/Front-end-Library/',
+  base: '/Full-Stack-Library/',
   head: [
     [
       'link',
@@ -54,7 +54,7 @@ module.exports = {
     ],
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',
-    repo: 'ViktorWong/Front-end-Library',
+    repo: 'ViktorWong/Full-Stack-Library',
     editLinks: true,
     docsDir: 'docs',
     editLinkText: '在 GitHub 上编辑此页',
