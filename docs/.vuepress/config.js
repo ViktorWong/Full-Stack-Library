@@ -24,8 +24,14 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Js进阶',
-        link: '/Js/'
+        text: '基础进阶',
+        items: [
+          { text: '深入 JavaScript', link: '/Js/' },
+          {
+            text: '深入 CSS',
+            link: '/CSS/'
+          },
+        ]
       },
       {
         text: '主流框架',

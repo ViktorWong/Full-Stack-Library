@@ -1,4 +1,4 @@
-# 重学 JavaScript
+# 深入 JavaScript
 
 ## 作用域闭包
 

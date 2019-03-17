@@ -1,5 +1,6 @@
 const sidebarMap = [
-  { title: "前端进阶", dirname: "Js" },
+  { title: "JS 进阶", dirname: "Js" },
+  { title: "CSS 进阶", dirname: "CSS" },
   { title: "Vue 专栏", dirname: "Vue" },
   { title: "React 专栏", dirname: "React" },
   { title: "小程序专栏", dirname: "Applets" },
