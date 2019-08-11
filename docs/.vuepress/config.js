@@ -24,6 +24,10 @@ module.exports = {
         link: '/'
       },
       {
+        text: '面试专栏',
+        link: '/Interviews/'
+      },
+      {
         text: '基础进阶',
         items: [
           { text: '深入 JavaScript', link: '/Js/' },
@@ -52,48 +56,48 @@ module.exports = {
           }
         ]
       },
-      {
-        text: '移动端',
-        items: [
-          {
-            text: 'Flutter',
-            link: '/Flutter/'
-          },
-          {
-            text: 'iOS原生开发',
-            link: '/iOS/'
-          }
-        ]
-      },
-      {
-        text: '服务端',
-        items: [
-          { text: '数据结构与算法', link: '/Algorithms/' },
-          { text: 'HTTP详解', link: '/HTTP/' },
-          { text: 'Node.js', link: '/Node/' }
-        ]
-      },
-      {
-        text: '全栈思维',
-        items: [
-          {
-            text: 'Web安全',
-            link: '/WebSafety/'
-          },
-          {
-            text: '自动化测试',
-            link: '/AutoText/'
-          },
-          {
-            text: '区块链',
-            link: '/Blockchain/'
-          },
-          {
-            text: '推荐库',
-            link: '/Repository/'
-          }
-        ]
-      }
+      // {
+      //   text: '移动端',
+      //   items: [
+      //     {
+      //       text: 'Flutter',
+      //       link: '/Flutter/'
+      //     },
+      //     {
+      //       text: 'iOS原生开发',
+      //       link: '/iOS/'
+      //     }
+      //   ]
+      // },
+      // {
+      //   text: '服务端',
+      //   items: [
+      //     { text: '数据结构与算法', link: '/Algorithms/' },
+      //     { text: 'HTTP详解', link: '/HTTP/' },
+      //     { text: 'Node.js', link: '/Node/' }
+      //   ]
+      // },
+      // {
+      //   text: '全栈思维',
+      //   items: [
+      //     {
+      //       text: 'Web安全',
+      //       link: '/WebSafety/'
+      //     },
+      //     {
+      //       text: '自动化测试',
+      //       link: '/AutoText/'
+      //     },
+      //     {
+      //       text: '区块链',
+      //       link: '/Blockchain/'
+      //     },
+      //     {
+      //       text: '推荐库',
+      //       link: '/Repository/'
+      //     }
+      //   ]
+      // }
       // {
       //   text: 'Blog',
       //   link: 'https://viktorwong.github.io/'
