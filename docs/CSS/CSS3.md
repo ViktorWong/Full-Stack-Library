@@ -205,7 +205,7 @@ CSS linear-gradient() 函数用于创建一个表示两种或多种颜色线性�
 
 默认值 to bottom 等于 180deg,如果是目标的效果可以不再额外设置。渐变夹角为元素中心点垂直线与渐变线之间形成的夹角。(借用大漠老师的图)
 
-![linear](/Full-Stack-Library/css/linear.png)
+![linear](/css/linear.png)
 
 1. 这里的夹角不是与水平线的，我当初也以为是水平夹角；
 2. 就是如果你希望渐变线到元素的右上角部分，这个部分不一定是45deg,而关键字设置的top right 一定是右上角。
@@ -213,13 +213,13 @@ CSS linear-gradient() 函数用于创建一个表示两种或多种颜色线性�
 
 ### 渐变线
 
-![linearGradient](/Full-Stack-Library/css/linearGradient.gif)
+![linearGradient](/css/linearGradient.gif)
 
 从上面的图中我们可以看到渐变线，也就是当前中心点的垂线旋转渐变角度之后的线，它的长度是与宽高以及角度相关的，可能会超出容器。如果角度为90，那么渐变线长度为元素的高，如果角度为0，那么长度为元素的宽度。其他角度自己可以根据公式去计算，sin(a)*w+cos(a)*h.
 
 有兴趣的同学可以参照我的图纸看下这个公式如何得来的,比较简陋，嘿嘿。
 
-![caotu](/Full-Stack-Library/css/caotu.jpeg)
+![caotu](/css/caotu.jpeg)
 
 解题过程如下：
 

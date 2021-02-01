@@ -339,7 +339,7 @@ height设置具体高度（px非百分比）这里就不多讲了，肯定是生
 
 这种情况下，父元素也就是body，html高度均为自动，子元素高度设置height:100%无任何效果，原因也很简单。auto*100% 无法计算，当然是0。这点与宽度是不同的，父元素宽度为auto的时候，子元素也可以拿到宽度。
 
-![height_auto](/Full-Stack-Library/css/height_auto.png)
+![height_auto](/css/height_auto.png)
 
 - 普通文档流，父元素设置高度100%
 
@@ -364,7 +364,7 @@ html,body{
 
 父元素设置具体高度值时，子元素高度100%可以取到对应的父元素高度。没有任何疑问。
 
-![height01](/Full-Stack-Library/css/height01.png)
+![height01](/css/height01.png)
 
 - 父子元素有绝对定位关系，父元素height:auto
 
@@ -385,7 +385,7 @@ html,body{
 }
 ```
 
-![height02](/Full-Stack-Library/css/height02.png)
+![height02](/css/height02.png)
 
 
 ###  max min特性
@@ -570,7 +570,7 @@ site-nav--active
 
 #### OOCSS
 
-![OOCSS](/Full-Stack-Library/css/OOCSS.png)
+![OOCSS](/css/OOCSS.png)
 
 1. OOCSS是object-oriented CSS的缩写. 主要有两个意思:
     + 结构和设计分离
@@ -587,7 +587,7 @@ site-nav--active
 
 #### SMACSS 可扩展和模块化结构的 CSS
 
-![SMACSS](/Full-Stack-Library/css/SMACSS.png)
+![SMACSS](/css/SMACSS.png)
 
 SMACSS是可扩展和模块化结构CSS的简称. 该方法的主要目标是减少代码量并简化代码维护.
 Jonathan Snook把它归纳为5个部分:
@@ -606,7 +606,7 @@ Jonathan Snook把它归纳为5个部分:
 
 #### Atomic CSS 原子 CSS
 
-![AtomicCSS](/Full-Stack-Library/css/AtomicCSS.png)
+![AtomicCSS](/css/AtomicCSS.png)
 
 - Atomic CSS是CSS架构的一种方法, 它的好处是写出基于视觉功能的小的, 单用途CSS类.这种类通常也被称为原子类。
 
@@ -620,7 +620,7 @@ Jonathan Snook把它归纳为5个部分:
 
 #### MCSS 多层 CSS
 
-![MCSS](/Full-Stack-Library/css/MCSS.png)
+![MCSS](/css/MCSS.png)
 
 - MCSS指的是多层CSS(Multilayer CSS). 这种样式写法建议将样式分成多个部分, 每个部分称为层(layers).
     + 第0层或基础(Zero layer or foundation), 负责重置浏览器样式的代码(如: reset.css或者normalize.css);
@@ -635,7 +635,7 @@ Jonathan Snook把它归纳为5个部分:
 
 #### AMCSS 属性模块 CSS
 
-![AMCSS](/Full-Stack-Library/css/AMCSS.png)
+![AMCSS](/css/AMCSS.png)
 
 AMCSS是"属性模块CSS"的缩写.
 
@@ -696,14 +696,14 @@ N, 名称分割组件: Ben建议添加命名空间来指定特定模块元素的
 
 ## css常用样式名
 
-![styleExample](/Full-Stack-Library/css/styleExample.png)
+![styleExample](/css/styleExample.png)
 
 
 ## css常用选择器攻略
 
 ### css3选择器分类
 
-![selector](/Full-Stack-Library/css/selector.png)
+![selector](/css/selector.png)
 
 ### 选择器攻略
 

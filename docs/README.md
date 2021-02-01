@@ -13,5 +13,5 @@ features:
 - title: 开源
   details: 本数字图书馆旨在搜集整理互联网优质内容，系统梳理全栈开发进阶知识脉络，本着开源的原则，帮助coder掌握Web全栈主流干货技术，掌握互联网核心技术硬技能，掌握架构师成长的核心软技能。
 
-footer: MIT Licensed | Copyright © 2019-present ViktorWong 
+footer: MIT Licensed | Copyright © 2019-2021 ViktorHub
 ---

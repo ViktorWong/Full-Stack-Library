@@ -3,19 +3,13 @@
     <NavLinks />
     <slot name="top">
       <div class="my-ad">
-        <!-- <img
-          src="/Full-Stack-Library/hongbao.PNG"
-          width="32%"
-          style="border-radius: 3px; opacity: 0.9;"
-        > -->
-
         <img
-          src="/Full-Stack-Library/zhifubao.png"
+          src="/zhifubao.png"
           width="48%"
           style="border-radius: 3px; opacity: 0.9;"
         >
         <img
-          src="/Full-Stack-Library/weixin.png"
+          src="/weixin.png"
           width="48%"
           style="border-radius: 3px; opacity: 0.9;"
         >
