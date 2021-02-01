@@ -7,7 +7,7 @@ const utils = require('./utils')
 module.exports = {
   title: 'Full-Stack Library',
   description: '前端图书馆',
-  base: '/Full-Stack-Library/',
+  base: '/',
   head: [
     [
       'link',
